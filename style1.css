@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box ;
+    color: #ffd502;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(project_1_bg_pic.png);
+
+}
+
+ul{
+    list-style: none;
+    cursor: pointer;
+}
+
+
+a{
+    text-decoration: none;
+    
+
+}
+main{
+    text-align: center;
+    word-spacing: 0px;
+    padding:0%;
+   border-spacing: 10px;
+}
+
+button{
+    background-color: red;
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: fit-content;
+    font-weight: 600;
+    size: 60;
+    margin: 0px;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-weight: 900;
+    color: brown;
+}
+
+main{
+    font-weight: bold;
+    font-family:"Dela Gothic One",cursive;
+    font-size:xxx-large;
+    gap: 0%;
+   line-height: 100px;
+   letter-spacing: 0px;
+
+
+}
+
+div .logo{
+    padding: 20px;
+    width: 160px;
+
+}
+
+
+.footerPic{
+    display: flex;
+   align-items:end;
+   justify-content: flex-end;
+}
